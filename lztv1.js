@@ -1,0 +1,4 @@
+var body = $response.body
+    .replace(/<head>/, '<head><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Hvftk/lztv@main/lztv1.css" type="text/css">')
+    .replace(/jquerys.js\?v/g, "ddgksf2013.js?v");
+$done({ body });
